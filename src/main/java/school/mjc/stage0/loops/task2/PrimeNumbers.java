@@ -5,7 +5,7 @@ public class PrimeNumbers {
         int count=2;
      while(count<=printToInclusive)
      {
-         if(count==2||count%2!=0)
+         if(count%2!=0)
          {
              System.out.println(count);
          }
